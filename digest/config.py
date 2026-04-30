@@ -45,6 +45,16 @@ TOPICS = {
         ),
         "emoji": "💬",
     },
+    "Token-Comm": {
+        "arxiv_query": (
+            '(abs:"token communication" OR abs:"token communications" '
+            'OR ti:"token communication" OR ti:"token communications" '
+            'OR abs:TokCom OR ti:TokCom '
+            'OR abs:"token-domain" OR abs:"token transmission") '
+            'AND (cat:cs.IT OR cat:eess.SP OR cat:cs.NI)'
+        ),
+        "emoji": "🎟️",
+    },
 }
 
 # 검색 범위

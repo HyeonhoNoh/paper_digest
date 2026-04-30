@@ -25,13 +25,25 @@ TOPICS = {
     },
     "LLM-Comm": {
         "arxiv_query": (
-            '(abs:"large language model" OR abs:"large language models" OR abs:LLM) '
+            '(abs:"large language model" OR abs:"large language models" OR abs:LLM '
+            'OR abs:"large multimodal model" OR abs:LMM '
+            'OR abs:"vision-language model" OR abs:VLM '
+            'OR abs:"foundation model") '
             'AND (abs:wireless OR abs:6G OR abs:"semantic communication" '
             'OR abs:"network management" OR abs:"radio access" '
-            'OR abs:"physical layer" OR abs:"resource allocation") '
+            'OR abs:"physical layer" OR abs:"resource allocation" '
+            'OR abs:"beam selection" OR abs:beamforming) '
             'AND (cat:cs.NI OR cat:cs.IT OR cat:eess.SP)'
         ),
         "emoji": "🤖",
+    },
+    "Semantic-Comm": {
+        "arxiv_query": (
+            '(abs:"semantic communication" OR abs:"semantic communications" '
+            'OR ti:"semantic communication" OR ti:"semantic communications") '
+            'AND (cat:cs.IT OR cat:eess.SP OR cat:cs.NI)'
+        ),
+        "emoji": "💬",
     },
 }
 

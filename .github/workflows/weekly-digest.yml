@@ -1,9 +1,9 @@
-name: Weekly Paper Digest
+name: Weekday Paper Digest
 
 on:
   schedule:
-    # 매주 월요일 오전 9시 KST = 일요일 24:00 UTC = 월요일 00:00 UTC
-    - cron: "0 0 * * 1"
+    # 평일(월-금) 매일 오전 9시 KST = 00:00 UTC
+    - cron: "0 0 * * 1-5"
   workflow_dispatch:  # 수동 실행 허용
 
 jobs:
